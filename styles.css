@@ -1,0 +1,143 @@
+body {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  text-align: center;
+  font-size: large;
+  text-wrap: center;
+  text-size-adjust: medium;
+  background-color: #f0e5cf; /* Soft, light color for the background */
+  background-image: url("https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt9prodlp/products/p-pink-reverie-284955-1.jpg"); /* Your flower image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image in place */
+  color: #790733;
+  margin: 0;
+  body {
+    font-family: "Courier New", Courier, monospace, sans-serif;
+    text-align: center;
+    background-color: #f0e5cf;
+    background-image: url("https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt9prodlp/products/p-pink-reverie-284955-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ff1f1f;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: rgba(231, 55, 137, 0.8);
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  #interactive {
+    margin: 20px;
+  }
+
+  button {
+    background-color: #ff61a6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #ff4d6d;
+  }
+
+  #countdown {
+    margin: 20px;
+    font-size: 1.2em;
+  }
+
+  .slides {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: rgba(231, 55, 137, 0.8);
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  /* Confetti Effect */
+  .confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+  }
+
+  padding: 0;
+}
+
+header {
+  background-color: rgba(6, 36, 207, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+}
+
+#interactive {
+  margin: 20px;
+}
+
+button {
+  background-color: #ff61a6;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4d6d;
+}
+
+footer {
+  background-color: rgba(255, 153, 204, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+p {
+  font-size: larger;
+  font-weight: bold;
+  text-decoration-color: aquamarine;
+}
